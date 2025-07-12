@@ -1,77 +1,72 @@
 import { Hack, TeamMember } from './types';
 
 // HİLENİN VE TANITIMININ EKLENDİĞİ ANA VERİ YAPISI
+// Sitemizde gösterilecek olan TÜM hile verilerini burada tutuyoruz.
 export const CHEATS_DATA: Hack[] = [
   {
+    // ID: Bu hilenin linklerde kullanılacak benzersiz kimliği.
     id: 'cs16-hackerhub-v1337',
-    name: 'CS 1.6 - HackerHub v1.337 "Protokol Kırıldı"',
-    game: 'Counter-Strike 1.6',
+
+    // İSİM: Ana sayfada ve hile listesinde görünecek başlık.
+    name: 'CS 1.6 - HackerHub v1.337',
     
-    // ----- İSTEDİĞİNİZ TÜM TANITIM METNİ BURAYA EKLENDİ -----
-    description: `
+    // OYUN: Hilenin ait olduğu oyun.
+    game: 'Counter-Strike 1.6',
+
+    // KISA AÇIKLAMA: Ana sayfadaki kartlarda görünecek kısa ve öz tanıtım yazısı.
+    description: 'Bazı kapılar sadece içeriden açılır... Biz levyeyle girmeyi tercih ettik. Protokolü kırmak için ihtiyacınız olan her şey bu pakette.',
+    
+    // ÖZELLİKLER: Hile detay sayfasında listelenecek temel özellikler.
+    features: [
+      'DLL Enjeksiyonu ile Tam Entegrasyon',
+      'Kullanıcı Adı/Şifre ile Güvenli Giriş Paneli',
+      'Skor Sıralama Sistemi',
+      'Entegre Sohbet Odası',
+      'Antivirüs Tarafından Onur Madalyası Almaya Aday',
+    ],
+
+    // RESİM: Hile kartında ve detay sayfasında görünecek görsel.
+    // DİKKAT: Bu resmi "public/images/" klasörüne "cs16-hackerhub.jpg" adıyla kaydetmeyi unutma!
+    image: '/images/cs16-hackerhub.jpg',
+
+    // YENİ KISALTILMIŞ DETAYLI AÇIKLAMA (Markdown formatında):
+    longDescription: `
 # ▋HackerHub v1.337 :: "Protokol Kırıldı" ▋
 
-> _"Bazı kapılar sadece içeriden açılır... Biz levyeyle girmeyi tercih ettik."_
+> _"Eğer bir kural bükülebiliyorsa, kırılmak için yalvarıyordur. Biz sadece isteğini yerine getiriyoruz."_
 
-Tebrikler, dijital yeraltı dünyasının en seçkin köşelerinden birine erişim sağladınız. Eğer bu satırları okuyorsan, ya doğru parolayı biliyordun ya da ağ güvenlik duvarımızı aşacak kadar yeteneklisin. Her iki durumda da... **hoş geldin.**
-
-Bu sıradan bir uygulama değil. Bu, kod satırları ve veritabanı sorgularıyla örülmüş bir isyan manifestosu. Klavyenin tuşlarına basarak skor kazandığınız, sohbet odalarında F5 tuşuna basanları aşağıladığınız ve arada sırada... ufak tefek "sistem anomalileri" yarattığınız bir sığınak.
+Dijital yeraltı dünyasına hoş geldin. Bu, kod satırlarıyla yazılmış bir isyan manifestosudur. Sisteme kimin patron olduğunu gösterme zamanı.
 
 ---
 
-## █ DOSYA BÜTÜNLÜĞÜ VE KULLANIM TALİMATLARI
+### ► Kullanım Talimatları
 
-### ► Başlatma Prosedürü
-1.  **\`BEYAZKOLYECS16HACK.exe\`**'yi çalıştır. Eğer "Windows bu dosyayı çalıştırmaktan pek hoşlanmadı" diye bir uyarı alırsan, bu işlerin doğru gittiğinin ilk işaretidir. "Yine de çalıştır" de ve sisteme kimin patron olduğunu göster.
-2.  **Kimlik Doğrulama:** Ana terminal ekranında senden bir **Kullanıcı Adı** ve **Şifre** istenecek. Unutma, burası internetin arka sokağı. "123456" gibi şifreler burada pek hoş karşılanmaz. Yaratıcı ol.
-3.  **Kayıt:** Eğer yeni bir ajan isen, bilgileri girip "Kayıt Ol" butonuna basarak dijital kimliğini oluştur. Sistem, varlığını veritabanımızın en karanlık köşelerine kazıyacaktır.
-4.  **Giriş:** Eğer eski bir "üye" isen, bilgilerini gir ve "Giriş Yap" protokolünü başlat. Arka plandaki Matrix animasyonunun keyfini çıkar; o sırada biz senin gerçekten sen olduğundan emin olmaya çalışıyoruz.
-
-### ► Ana Panel Fonksiyonları (\`Form2.cs\`)
-*   **Skor Tablosu:** Dijital alemdeki şöhretin burada listelenir. Her 5 dakikada bir sistem, varlığını onurlandırmak için hesabına 100 skor puanı ekler. Zirve soğuktur, ama manzarası güzeldir.
-*   **Sohbet Odası (\`Form3.cs\`):** Diğer operatörlerle strateji planlayabileceğin, geyik yapabileceğin veya sadece klavyenin sesini dinletebileceğin kutsal mekân. Unutma, büyük birader (\`Big Brother\`) her zaman dinliyor olabilir... ya da olmayabilir. Bu riski alacak mısın?
-*   **Hile Paneli:**
-    *   Bu panelin kilidini açmak, bir sabır ve metanet testidir. Sistem, senin sadece bir "script kiddie" olup olmadığını anlamak için birkaç görevi tamamlamanızı ister.
-    *   **"Hileyi Aktifleştir"** butonu, vaat edilen topraklara açılan kapıdır. \`hl.exe\` işlemine, ustaca modlanmış bir parazit (\`.dll\`) enjekte eder. Eğer çalışmazsa, ya yönetici olarak çalıştırmıyorsundur ya da antivirüs yazılımın bizden daha paranoyaktır. Antivirüsü bir süreliğine tatile gönder. Hak etti.
+1.  **\`BEYAZKOLYECS16HACK.exe\`** dosyasını çalıştır. Windows uyarısı alırsan "Yine de çalıştır" de. Bu işlerin doğru gittiğinin ilk işaretidir.
+2.  Uygulama içinde **Kayıt Ol** veya **Giriş Yap**. Unutma, burası internetin arka sokağı, şifren güçlü olsun.
+3.  Ana panele ulaştığında **"Hileyi Aktifleştir"** butonunu bul. Bu buton, \`hl.exe\` işlemine modlanmış parazitimizi (\`.dll\`) enjekte eder.
+4.  **Sorun mu var?** Programı yönetici olarak çalıştırdığından emin ol ve antivirüs yazılımını bir süreliğine tatile gönder. Hak etti.
 
 ---
 
-## ███ YAPIMCILAR KÖŞKÜ ███
-### "KODUN ARKASINDAKİ HAYALETLER"
+### ► "Kodun Arkasındaki Hayaletler"
 
-Burası, bu dijital anarşiyi yaratan üç aklın sığınağıdır. Onlar ne kahramandır ne de kötü adam. Onlar sadece sistemin "nasıl çalıştığını" değil, "nasıl daha *eğlenceli* çalışabileceğini" merak edenlerdir. Saygıyla yaklaş.
-
-| ALIAS | GÖREV TANIMI | SÖZÜ |
-| :--- | :--- | :--- |
-| **BEYAZKOLYE** | _DLL Baş Mimarı & Modifikasyon Uzmanı_ | "Eğer bir kural bükülebiliyorsa, kırılmak için yalvarıyordur. Ben sadece isteğini yerine getiriyorum." |
-| **NurSultan** | _C# Formları Baş Büyücüsü & Arayüz Sihirbazı_ | "Kullanıcı arayüzü, kaosun içindeki düzendir. Benim görevim, o düzenin ne kadar... 'esnek' olabileceğini göstermek." |
-| **FaTaLRhymeR37**| _C# Altyapı Stratejisti & Veritabanı Kâhyası_ | "Veri asla yalan söylemez. Ama doğru sorgularla istediğin her şeyi itiraf ettirebilirsin." |
+| ALIAS | GÖREV TANIMI |
+| :--- | :--- |
+| **BEYAZKOLYE** | _DLL Baş Mimarı & Modifikasyon Uzmanı_ |
+| **NurSultan** | _C# Arayüz Sihirbazı_ |
+| **FaTaLRhymeR37**| _C# Altyapı Stratejisti_ |
 
 <br>
 
-> _Bu köşke sadece kodla değil, bol miktarda kahve, uykusuz geceler ve "Bu neden çalışmıyor?!" diye atılan sayısız çığlıkla girilmiştir. Gördüğünüz her pikselin arkasında, çözülmüş bir düzine hata vardır. Selam olsun o hatalara..._
+> Gördüğünüz her pikselin arkasında, bolca kahve, uykusuz geceler ve çözülmüş bir düzine hata vardır. Selam olsun o hatalara!
 
 ---
 
-### █ UYARI VE YASAL FERAGATNAME
-
-Bu yazılım "olduğu gibi" sunulmaktadır. Kullanımından doğacak sistem çökmeleri, oyundan yasaklanmalar, kız arkadaşınızın sizi terk etmesi, kedinizin size garip bakması veya evrenin gizemlerini bir anda çözmeniz gibi durumlardan yapımcılar sorumlu tutulamaz.
-
-Eğer bu dosyayı bir antivirüs taramasından geçirdiysen ve 10'dan fazla uyarı aldıysan, tebrikler. Bu, programın işini ne kadar iyi yaptığının bir kanıtıdır. O uyarılar birer hata değil, onur madalyasıdır.
+#### █ Yasal Feragatname
+Bu yazılım "olduğu gibi" sunulmaktadır. Kullanımından doğacak yasaklanmalar veya sistem sorunlarından yapımcılar sorumlu tutulamaz. Antivirüs yazılımın onlarca uyarı verirse tebrikler, bu programın işini ne kadar iyi yaptığının bir kanıtıdır. Onlar hata değil, onur madalyasıdır.
 
 **Şimdi git ve kaosu kucakla.**
-    `,
-    // ----------------------------------------------------------------
-
-    features: [
-        'Aimbot', 
-        'Wallhack (ESP)', 
-        'Bunnyhop Script', 
-        'No Recoil', 
-        'DLL Injector', 
-        'Skor ve Sohbet Paneli'
-    ],
-    image: 'https://i.imgur.com/G5iA5A3.jpeg' // Temaya uygun bir görsel
+`
   },
 ];
 

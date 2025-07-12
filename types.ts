@@ -6,6 +6,7 @@ export interface Hack {
   description: string;
   features: string[];
   image: string;
+  downloadLink: string; // <-- BU SATIR ÖNEMLİ
 }
 
 export interface TeamMember {

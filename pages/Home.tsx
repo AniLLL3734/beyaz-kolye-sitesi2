@@ -13,7 +13,7 @@ const Home: React.FC = () => {
       <div className="my-16">
         <h1 className="text-5xl md:text-7xl font-bold tracking-widest text-[#e0e0e0]">BEYAZ KOLYE HACK</h1>
         <h2 className="text-xl md:text-2xl mt-4 text-[#00ff41]">
-          <TypingAnimation text="OYUNUN KURALLARINI YENİDEN YAZIYORUZ." />
+          <TypingAnimation text="OYUN KURALLARINI YENIDEN YAZIYORUZ" />
         </h2>
       </div>
 

@@ -1,22 +1,12 @@
 import { Hack, TeamMember } from './types';
 
-// HİLENİN VE TANITIMININ EKLENDİĞİ ANA VERİ YAPISI
 // Sitemizde gösterilecek olan TÜM hile verilerini burada tutuyoruz.
 export const CHEATS_DATA: Hack[] = [
   {
-    // ID: Bu hilenin linklerde kullanılacak benzersiz kimliği.
     id: 'cs16-hackerhub-v1337',
-
-    // İSİM: Ana sayfada ve hile listesinde görünecek başlık.
     name: 'CS 1.6 - HackerHub v1.337',
-    
-    // OYUN: Hilenin ait olduğu oyun.
     game: 'Counter-Strike 1.6',
-
-    // KISA AÇIKLAMA: Ana sayfadaki kartlarda görünecek kısa ve öz tanıtım yazısı.
     description: 'Bazı kapılar sadece içeriden açılır... Biz levyeyle girmeyi tercih ettik. Protokolü kırmak için ihtiyacınız olan her şey bu pakette.',
-    
-    // ÖZELLİKLER: Hile detay sayfasında listelenecek temel özellikler.
     features: [
       'DLL Enjeksiyonu ile Tam Entegrasyon',
       'Kullanıcı Adı/Şifre ile Güvenli Giriş Paneli',
@@ -24,12 +14,12 @@ export const CHEATS_DATA: Hack[] = [
       'Entegre Sohbet Odası',
       'Antivirüs Tarafından Onur Madalyası Almaya Aday',
     ],
-
-    // RESİM: Hile kartında ve detay sayfasında görünecek görsel.
-    // DİKKAT: Bu resmi "public/images/" klasörüne "cs16-hackerhub.jpg" adıyla kaydetmeyi unutma!
     image: '/images/cs16-hackerhub.jpg',
 
-    // YENİ KISALTILMIŞ DETAYLI AÇIKLAMA (Markdown formatında):
+    // İNDİRME LİNKİ: Butona tıklandığında gidilecek olan adres.
+    downloadLink: 'https://ay.live/jXS5', // <-- DİKKAT: BURAYI KENDİ LİNKİNLE DEĞİŞTİR!
+
+    // DETAYLI AÇIKLAMA (Markdown formatında):
     longDescription: `
 # ▋HackerHub v1.337 :: "Protokol Kırıldı" ▋
 
@@ -70,41 +60,21 @@ Bu yazılım "olduğu gibi" sunulmaktadır. Kullanımından doğacak yasaklanmal
   },
 ];
 
-
-// HİLENİN YAZARLARINA AİT EKİP ÜYELERİ BİLGİSİ
+// Takım üyeleri listesi
 export const TEAM_MEMBERS: TeamMember[] = [
     {
-      name: 'BEYAZKOLYE',
-      handle: 'BEYAZKOLYE',
-      role: 'DLL Baş Mimarı & Modifikasyon Uzmanı'
-    },
-    {
-      name: 'NurSultan',
-      handle: 'NurSultan',
-      role: 'C# Formları Baş Büyücüsü & Arayüz Sihirbazı'
+      name: 'ANIL (BEYAZ KOLYE)',
+      handle: 'BEYAZ KOLYE',
+      role: 'Kurucu & DLL Baş Mimarı'
     },
     {
       name: 'FaTaLRhymeR37',
       handle: 'FaTaLRhymeR37',
       role: 'C# Altyapı Stratejisti & Veritabanı Kâhyası'
+    },
+    {
+      name: 'NurSuLTaNN37',
+      handle: 'NurSuLTaNN37',
+      role: 'C# Arayüz Sihirbazı & UI/UX Tasarım'
     }
 ];
-
-
-// ----- Gerekli Tür (Type) Tanımlamaları -----
-// Eğer projenizde zaten 'types.ts' gibi bir dosya varsa bu kısım gereksiz olabilir.
-// Ancak tam kod istediğiniz için buraya ekliyorum.
-export interface Hack {
-  id: string;
-  name: string;
-  game: string;
-  description: string;
-  features: string[];
-  image: string;
-}
-
-export interface TeamMember {
-  name: string;
-  handle: string;
-  role: string;
-}

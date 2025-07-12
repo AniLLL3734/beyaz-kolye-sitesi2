@@ -12,8 +12,8 @@ export const CHEATS_DATA: Hack[] = [
       'Kullanıcı Adı/Şifre ile Güvenli Giriş Paneli',
       'Skor Sıralama Sistemi',
       'Entegre Sohbet Odası',
-      'RAR ŞİFRESİ 123',
       'Antivirüs Tarafından Onur Madalyası Almaya Aday',
+      'RAR ŞİFRESİ 123',
     ],
     image: '/images/cs16-hackerhub.jpg',
 

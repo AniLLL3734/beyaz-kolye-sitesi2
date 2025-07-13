@@ -1,4 +1,5 @@
 import { Hack, TeamMember } from './types';
+import { Tool } from './types'; 
 
 // Sitemizde gösterilecek olan TÜM hile verilerini burada tutuyoruz.
 export const CHEATS_DATA: Hack[] = [
@@ -78,4 +79,31 @@ export const TEAM_MEMBERS: TeamMember[] = [
       handle: 'NurSuLTaNN37',
       role: 'C# Arayüz Sihirbazı & UI/UX Tasarım'
     }
+];
+
+export const TOOLS_DATA: Tool[] = [
+  {
+    id: 'jpg-to-png-converter',
+    name: 'JPG to PNG Çevirici',
+    description: 'Resim dosyalarınızı kaliteden ödün vermeden anında PNG formatına dönüştürün. Hızlı ve güvenli.',
+    image: '/images/tool-image-converter.png', // Bu resmi public/images klasörüne eklemeyi unutma!
+    link: 'https://github.com/AniLLL3734/ImageForge', // Kendi aracının linkini buraya koy
+    tags: ['Resim', 'Çevirici'],
+  },
+  {
+    id: 'md5-hash-generator',
+    name: 'MD5 Hash Oluşturucu',
+    description: 'Metinleriniz veya dosyalarınız için anında güvenli MD5 hash değerleri oluşturun. Veri bütünlüğü için ideal.',
+    image: '/images/tool-hash-generator.png', // Bu resmi public/images klasörüne eklemeyi unutma!
+    link: '#', // Kendi aracının linkini buraya koy
+    tags: ['Güvenlik', 'Utility'],
+  },
+  {
+    id: 'port-scanner',
+    name: 'Basit Port Tarayıcı',
+    description: 'Belirli bir IP adresindeki açık portları hızla tespit edin. Ağ güvenliği analizi için temel bir araç.',
+    image: '/images/tool-port-scanner.png', // Bu resmi public/images klasörüne eklemeyi unutma!
+    link: '#', // Kendi aracının linkini buraya koy
+    tags: ['Ağ', 'Güvenlik'],
+  },
 ];

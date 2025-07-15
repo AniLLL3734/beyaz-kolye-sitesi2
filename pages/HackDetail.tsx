@@ -1,7 +1,8 @@
+// Dosya: src/pages/HackDetail.tsx
+
 import React from 'react';
 import { useParams, Navigate } from 'react-router-dom';
 import { CHEATS_DATA } from '../constants';
-import AdUnit from '../components/AdUnit';
 
 // Markdown metnini HTML'e çevirmek için basit bir fonksiyon
 const formatMarkdown = (text: string) => {
@@ -60,16 +61,9 @@ const HackDetail: React.FC = () => {
           </div>
         )}
 
-        {/* --- İÇERİK ARASI BANNER --- */}
-        <div className="my-12 flex justify-center">
-            <AdUnit 
-              key_id="41ba09b19f90fdc28d783b3692301f31" // 468x60 Banner Kodu
-              width={468}
-              height={60}
-            />
-        </div>
+        {/* İçerik arası banner buradan kaldırıldı */}
 
-        <div className="mt-8 text-center">
+        <div className="mt-12 text-center">
           <a 
             href={hack.downloadLink}
             target="_blank"

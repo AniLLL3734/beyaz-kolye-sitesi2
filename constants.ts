@@ -1,8 +1,96 @@
 import { Hack, TeamMember } from './types';
-import { Tool } from './types'; 
+import { Tool } from './types';
 
 // Sitemizde gösterilecek olan TÜM hile verilerini burada tutuyoruz.
 export const CHEATS_DATA: Hack[] = [
+  // YENİ EKLENEN CS2 HİLESİ
+  {
+    id: 'cs2-kozmik-fisilti-v1',
+    name: 'CS2 - Kozmik Fısıltı Sürümü',
+    game: 'Counter-Strike 2',
+    description: 'Bu, Valhalla kapılarını aralayan, Dust II\'nin kum tanelerini yeniden yazan, rakip oyuncuların rüyalarına giren kadim bir güçtür. Piksel formuna bürünmüş ilahi bir lütuf.',
+    features: [
+      'Kaderin Mıknatısı (Gelişmiş Aimbot)',
+      'Üçüncü Gözün İrfanı (Wallhack/ESP)',
+      'Newton\'a Kafa Tutan Tavşan (Bunnyhop)',
+      'Mutlak Kontrol (Geri Tepmesiz Sprey)',
+      'Kozmik Güç: Çaktırmadan kullanılması önerilir.',
+    ],
+    image: '/images/cs2-cosmic-whisper.jpg', // DİKKAT: Bu resmi /public/images/ klasörüne eklemelisin!
+
+    // İNDİRME LİNKİ: İsteğiniz üzerine güncellendi.
+    downloadLink: 'https://ay.live/ZbP1Lx',
+
+    // DETAYLI AÇIKLAMA (Markdown formatında):
+    longDescription: `
+# BEYAZ KOLYE'NİN YASAK İLMİ - CS2 KOZMİK FISILTI SÜRÜMÜ
+
+> Selamlar, dijital evrenin seçilmiş yolcusu...
+> ...veya Google'da 'CS2 hile indir bedava güvenilir' diye aratıp şans eseri buraya düşen meraklı arkadaş.
+
+Elindeki bu dosya, sıradan bir 'hile.exe' değildir. Bu, Valhalla kapılarını aralayan, Dust II'nin kum tanelerini yeniden yazan, rakip oyuncuların rüyalarına giren kadim bir güçtür. Bu, piksel formuna bürünmüş bir ilahi lütuftur.
+
+Yani kısacası, bu bir hile. Hem de fıstık gibi bir hile.
+
+Bu gücü kullanmaya başlamadan önce, bilmen gereken birkaç sır var:
+
+---
+
+### [ ÖZELLİKLER - YASAK BİLGİLER ]
+
+#### ~ KADERİN MIKNATISI (Aimbot) ~
+Kainat, kusursuz bir denge üzerine kuruludur. Ve artık o dengenin merkezi, senin imlecin.
+Fareyi düşmanın kafasının yakınına getir, gerisini yer çekimi kanunları ve kozmik enerji halleder.
+Fizik kuralları falan işte, çok sorgulama. Smooth ayarını iyi yap ki 'anormal' değil,
+'doğuştan yetenekli' desinler.
+
+#### ~ ÜÇÜNCÜ GÖZÜN İRFANI (Wallhack / ESP) ~
+Duvarlar, sadece birer yanılsamadır. Zayıf zihinleri oyalamak için konulmuş sıradan engellerdir.
+Bu güçle birlikte, duvarların arkasındaki gerçeği göreceksin. O pusu kuran kampçı arkadaş var ya?
+Artık o, senin için banyoda basılmış şeffaf bir hayalet. 'SÜRPRİİİZZ!' diye bağırabilirsin.
+
+#### ~ NEWTON'A KAFA TUTAN TAVŞAN (Bunnyhop) ~
+Yer çekimi kimin umurunda? Enerjini doğru yönlendirirsen, haritada bir kelebek gibi süzülür,
+bir arı gibi sokarsın. Rakiplerin seni vurmaya çalışırken sen çoktan mid kapısından AWP'yi
+onların alnına dayamış olacaksın. "Lag vardı" demeleri muhtemeldir.
+
+#### ~ GERİ TEPME KONTROLÜ (No-Recoil) ~
+Öfkeni ve silahını kontrol et. Her mermi, bir niyettir. Ve senin niyetin, asla sekmeyecek.
+Bırak onlar sprey atarken etrafı boyasın, sen tek bir noktaya sanat icra et. Picasso görse kıskanırdı.
+
+---
+
+### [ UYARI - KOZMOSUN TOKADI ACIMASIZDIR ]
+
+> Ey ölümlü, bu güç sarhoş edicidir.
+> Tanrı moduna geçtin diye roket atarla sinek avlamaya kalkma. Fazla belli edersen, "Overwatch" denen
+> dijital mahşer mahkemesinin gözcüleri veya "VAC" denen o her şeyi gören göz, sana ilahi bir tokat
+> atar. O tokat ağırdır, envanterini bile yanında götürür.
+
+Bu gücü bilgelikle kullan. Ya da en azından, çaktırmamaya çalış. Seçim senin.
+
+---
+
+### ~ Gölgedeki Mimarların Fısıltıları ~
+
+> **>>> FaTaLRhymeR37 diyor ki:**
+> "Satırlar sıfır ve bir olurken, ben gölgelerde kafiye ararım. Sen nişan alırsın, mermi hedefi bulur. Kader bu. Gerisi şiir."
+
+> **>>> NurSultan diyor ki:**
+> "İki satır kod yazsınlar diye üçünün de başının etini yedim. 'Estetik olsun, gizemli olsun' diye tutturdular. Alın size estetik. Şimdi gidin maç kazanın da emeklerimiz boşa gitmesin. Ve lütfen, rica ediyorum, raporlanmayın. Teşekkürler."
+
+> **>>> BEYAZ KOLYE diyor ki:**
+> "Arkadaşlar saat gecenin üçü. Bunu yazarken üçüncü kahvemi içiyorum. Hile çalışıyorsa ne mutlu bana. Çalışmıyorsa güncellemeyi bekleyin, muhtemelen uyuyakalmışımdır ya da yeni bölüm diziye başlamışımdır. Ha bi' de o YouTube kanalına abone oldunuz mu? Bak o cidden önemli."
+
+---
+
+Unutma, her mermi bir duadır ve bu hile, o duaların kabul olmuş halidir.
+Şimdi git ve onlara yıldızları tersten göster. İyi avlar!
+
+**-BEYAZ KOLYE & Ekibi-**
+`
+  },
+  // MEVCUT CS 1.6 HİLESİ
   {
     id: 'cs16-hackerhub-v1337',
     name: 'CS 1.6 - HackerHub v1.337',
@@ -17,11 +105,7 @@ export const CHEATS_DATA: Hack[] = [
       'RAR ŞİFRESİ 123',
     ],
     image: '/images/cs16-hackerhub.jpg',
-
-    // İNDİRME LİNKİ: Butona tıklandığında gidilecek olan adres.
-    downloadLink: 'https://ay.live/jXS5', // <-- DİKKAT: BURAYI KENDİ LİNKİNLE DEĞİŞTİR!
-
-    // DETAYLI AÇIKLAMA (Markdown formatında):
+    downloadLink: 'https://ay.live/jXS5',
     longDescription: `
 # ▋HackerHub v1.337 :: "Protokol Kırıldı" ▋
 

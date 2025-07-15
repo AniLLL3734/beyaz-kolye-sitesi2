@@ -105,7 +105,7 @@ Unutma, her mermi bir duadır ve bu hile, o duaların kabul olmuş halidir.
       'RAR ŞİFRESİ 123',
     ],
     image: '/images/cs16-hackerhub.jpg',
-    downloadLink: 'https://ay.live/jXS5',
+    downloadLink: 'https://ay.live/dOTDC',
     longDescription: `
 # ▋HackerHub v1.337 :: "Protokol Kırıldı" ▋
 

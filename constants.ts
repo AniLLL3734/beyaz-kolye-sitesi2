@@ -156,10 +156,11 @@ Bu yazılım "olduğu gibi" sunulmaktadır. Kullanımından doğacak yasaklanmal
       'Gelişmiş Geri Tepme Kontrolü',
       'Anti-Aimbot ve Sahte Gecikme (Fake Lag)',
       'Tamamen Güvenli ve HWID Korumalı Platform',
+      'RAR ŞİFRESİ 123'
     ],
     image: '/images/cs16-spectre-client.png', // DİKKAT: Yeni ve havalı bir görsel ekle!
 
-    downloadLink: 'https://ay.live/SENIN_C_SHARP_LAUNCHER_LINKIN',
+    downloadLink: 'https://ay.live/GxQOa0',
 
     longDescription: `
 # Spectre Client - Counter-Strike 1.6 Hükümdarlık Paketi

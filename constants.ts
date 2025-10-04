@@ -10,7 +10,7 @@ export const CHEATS_DATA: Hack[] = [
     game: 'Counter-Strike 1.6',
     description: 'Sadece bir FPS artırıcı değil, aynı zamanda tam teşekküllü bir CFG düzenleyici. Performansı optimize edin, ayarlarınızı kişiselleştirin ve oyuna hükmedin. Sistem ve oyun içi ayarlar için nihai kontrol merkezi.',
     features: [
-      '3 Adımlı Doğrulama Sistemi',
+      'RAR ŞİFRESİ 123',
       'Hazır Performans Paketleri (Yüksek & Ekstrem FPS)',
       'Detaylı Özel CFG Oluşturucu',
       'Sistem Optimizasyon Araçları (Güç Planı, Temp Temizliği)',
@@ -21,7 +21,7 @@ export const CHEATS_DATA: Hack[] = [
     image: '/images/cs16-fps-booster.png', // DİKKAT: Bu resmi /public/images/ klasörüne eklemelisin!
 
     // İNDİRME LİNKİ: 
-    downloadLink: 'https://ay.live/SmP', // Bu linki kendi indirme linkinle değiştirebilirsin
+    downloadLink: 'https://ay.live/Y5vVBP', // Bu linki kendi indirme linkinle değiştirebilirsin
 
     // DETAYLI AÇIKLAMA (Markdown formatında):
     longDescription: `

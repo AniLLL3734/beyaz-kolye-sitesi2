@@ -5,6 +5,78 @@ import { Tool } from './types';
 export const CHEATS_DATA: Hack[] = [
   // YENİ EKLENEN CS2 HİLESİ
   {
+    id: 'cs16-fps-booster-v1',
+    name: 'CS 1.6 - FPS Booster & CFG Editor',
+    game: 'Counter-Strike 1.6',
+    description: 'Sadece bir FPS artırıcı değil, aynı zamanda tam teşekküllü bir CFG düzenleyici. Performansı optimize edin, ayarlarınızı kişiselleştirin ve oyuna hükmedin. Sistem ve oyun içi ayarlar için nihai kontrol merkezi.',
+    features: [
+      '3 Adımlı Doğrulama Sistemi',
+      'Hazır Performans Paketleri (Yüksek & Ekstrem FPS)',
+      'Detaylı Özel CFG Oluşturucu',
+      'Sistem Optimizasyon Araçları (Güç Planı, Temp Temizliği)',
+      'Oyun İçi Avantaj Ayarları (Fullbright, Ses Opt.)',
+      'Görsel Crosshair Editörü',
+      'Tamamen Güvenli ve VAC Riski Yok',
+    ],
+    image: '/images/cs16-fps-booster.jpg', // DİKKAT: Bu resmi /public/images/ klasörüne eklemelisin!
+
+    // İNDİRME LİNKİ: 
+    downloadLink: 'https://ay.live/SmP', // Bu linki kendi indirme linkinle değiştirebilirsin
+
+    // DETAYLI AÇIKLAMA (Markdown formatında):
+    longDescription: `
+# BEYAZ KOLYE SUNAR: CS 1.6 FPS BOOSTER & KONTROL MERKEZİ
+
+> _"En iyi hile, donanımının sınırlarını aşmaktır."_
+> **Biz o sınırları sizin için yeniden çiziyoruz.**
+
+Eğer bu satırları okuyorsan, rekabeti ciddiye alıyorsun demektir. Gecikme, takılma ve düşük FPS gibi sorunların, yeteneğinin önüne geçmesine izin vermekten sıkıldın. CS 1.6 FPS Booster, sadece bir "performans artırıcı" değil; o, oyun deneyiminin her yönünü kontrol etmen için tasarlanmış **nihai komuta merkezidir.**
+
+Bu bir hile değil. Bu, makinenin ve oyununun potansiyelini sonuna kadar açığa çıkaran bir anahtardır.
+
+---
+
+### [ ÖZELLİKLER - ARSENALİNİ GÜÇLENDİR ]
+
+#### ~ Hazır Performans Paketleri ~
+Tek bir tıklamayla, uzmanlarımız tarafından hazırlanmış ve test edilmiş performans yapılandırmalarını yükle.
+*   **Yüksek FPS Paketi:** Görüntü kalitesi ve performans arasında mükemmel denge. Çoğu sistem için ideal.
+*   **Ekstrem FPS Paketi:** Rekabetçi oyuncular ve düşük sistemler için her şey performansa adandı. Her bir FPS karesi için savaşıyoruz.
+
+#### ~ Detaylı Özel CFG Oluşturucu ~
+Oyunun her ayarını kendi oyun tarzına göre düzenle.
+*   **Grafik:** Doku kalitesi, V-Sync, mermi izleri ve daha fazlası.
+*   **Network:** Rate ayarları, cmdrate, updaterate... İnternet bağlantından maksimum verimi al.
+*   **Mouse:** Hassasiyet, raw input, filtreleme. Nişan alışını mükemmelleştir.
+*   **Ses & Diğer Ayarlar:** EAX, A3D, silah sallanması gibi ince ayarlar.
+
+#### ~ Sistem Optimizasyonları (Yönetici Gerekir) ~
+Oyun dışındaki faktörleri de optimize et.
+*   **Nihai Performans Güç Planı:** Windows'u oyun için en yüksek performansa ayarla.
+*   **Geçici Dosya Temizliği:** Sistemi yavaşlatan gereksiz dosyaları tek tıkla temizle.
+*   **Windows Oyun Modu:** Oyun sırasında arka plan işlemlerini en aza indir.
+
+#### ~ Oyun İçi Avantaj Ayarları ~
+YASAL sınırlar dahilinde rekabet avantajı elde et.
+*   **Fullbright:** Karanlık alanları aydınlatarak pusu kuran rakipleri daha kolay gör.
+*   **Ses Optimizasyonu:** Düşman adım seslerini daha net duy.
+
+#### ~ Görsel Crosshair Editörü ~
+Oyun içinde deneme yapmadan, mükemmel nişangahını görsel olarak tasarla, rengini, boyutunu ve davranışını ayarla.
+
+---
+
+### [ UYARI - GÜCÜ BİLİNÇLİ KULLAN ]
+
+> Bu araç, oyun dosyalarına müdahale etmez veya hile olarak kabul edilen bir yöntem kullanmaz. **Tamamen güvenlidir ve VAC riski taşımaz.**
+> Ancak, "Oyun İçi Avantaj Ayarları" bölümündeki Fullbright gibi özellikler, bazı turnuvalarda veya özel sunucularda yasaklanmış olabilir. Sorumluluk tamamen size aittir.
+
+Bu uygulama, emeğinizin karşılığını almanız için burada. Artık düşük FPS bahanesinin arkasına sığınmak yok.
+**Şimdi git ve gerçek potansiyelini göster.**
+
+**-BEYAZ KOLYE & Ekibi-**
+`
+  },{
     id: 'cs2-kozmik-fisilti-v1',
     name: 'CS2 - Kozmik Fısıltı Sürümü',
     game: 'Counter-Strike 2',
@@ -228,6 +300,7 @@ Seçim senin. Biz sadece kapıyı aralıyoruz.
 **-Spectre Client Ekibi-**
 `
   }
+  
 ];
 
 // Takım üyeleri listesi

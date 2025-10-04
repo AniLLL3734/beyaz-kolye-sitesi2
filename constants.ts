@@ -18,7 +18,7 @@ export const CHEATS_DATA: Hack[] = [
       'Görsel Crosshair Editörü',
       'Tamamen Güvenli ve VAC Riski Yok',
     ],
-    image: '/images/cs16-fps-booster.jpg', // DİKKAT: Bu resmi /public/images/ klasörüne eklemelisin!
+    image: '/images/cs16-fps-booster.png', // DİKKAT: Bu resmi /public/images/ klasörüne eklemelisin!
 
     // İNDİRME LİNKİ: 
     downloadLink: 'https://ay.live/SmP', // Bu linki kendi indirme linkinle değiştirebilirsin

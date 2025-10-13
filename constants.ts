@@ -5,6 +5,65 @@ import { Tool } from './types';
 export const CHEATS_DATA: Hack[] = [
   // YENİ EKLENEN CS2 HİLESİ
   {
+    id: 'cs16-the-kolye-protocol-v1',
+    name: 'The Kolye Protocol CS 1.6 HACK',
+    game: 'Counter-Strike 1.6',
+    description: 'Protokol, bir kurallar bütünüdür. Bu, o kuralları sizin için yeniden yazan protokoldür. Dijital bir isyan, kodun en saf hali.',
+    features: [
+      'Derin Enjeksiyon & Tespit Edilemezlik Odaklı',
+      'Tamamen Türkçe & Minimalist Arayüz',
+      'Kusursuz Sessiz Aimbot (Legit Ayarlı)',
+      'Taktiksel Netlik ESP (Kutu, İsim, Mesafe)',
+      'Newton\'a Saygısızlık Modu (Bunnyhop)',
+      'Antivirüs Dostu (?) Mimari',
+      'RAR ŞİFRESİ: 123',
+    ],
+    image: '/images/cs16-kolye-protocol.png', // DİKKAT: Yeni ve havalı bir görsel ekle!
+
+    downloadLink: 'https://ay.live/Jfp', // Bu linki kendi indirme linkinle değiştirebilirsin
+
+    longDescription: `
+# ▋ The Kolye Protocol :: Vaka No: 1.6 ▋
+
+> _"Her sistemin bir açığı vardır. Biz o açığın kendisiyiz."_
+
+Eğer bunu okuyorsan, sıradanlığın zincirlerini kırmaya hazırsın demektir. The Kolye Protocol, piyasadaki gürültücü, rengarenk ve virüs dolu hilelerin aksine; sessiz, derinden ve etkili olmak üzere tasarlandı. Bu bir şov aracı değil, bir operasyon aracıdır.
+
+Amacımız dikkat çekmek değil, kazanmaktır. Bu felsefeyle yola çıktık.
+
+---
+
+### ► Protokolün Bileşenleri (Arsenal)
+
+#### ~ Kusursuz Sessiz Aimbot (Legit Ayarlı) ~
+Bu bir mıknatıs değil, bir fısıltıdır. Reflekslerinize küçük, insanüstü ama fark edilemez bir dokunuş yapar. Düşmanın omzuna nişan alın, protokol merminin adresini güncellesin. Unutmayın, en iyi aimbot, varlığı hiç bilinmeyendir.
+
+#### ~ Taktiksel Netlik ESP (Wallhack) ~
+Duvarlar arkasındaki belirsizlik, acemiler içindir. Protokol, size bilgi sunar; düşmanın konumu, mesafesi ve kimliği. Bilgi güçtür ve bu güçle pusu kuran siz olacaksınız, pusuya düşen değil. Sade, net ve amaca yönelik.
+
+#### ~ Newton'a Saygısızlık Modu (Bunnyhop) ~
+Yer çekimi, sadece bir tavsiyedir. Bu mod aktifken, haritada akarsınız. Zamanlamayı tutturun ve rakiplerinizin sizi yakalamaya çalıştığı o komik anların tadını çıkarın.
+
+---
+
+### ► Kullanım Direktifleri - Başarılı Bir Operasyon İçin
+
+Protokolün kusursuz çalışması, kullanıcısının disiplinine bağlıdır. Şu 3 adımı atlamayın:
+
+1.  **Yetkilendirme:** Uygulamaya sağ tıklayıp **"Yönetici olarak çalıştırın."** Bu bir rica değil, bir zorunluluktur.
+2.  **Zamanlama:** Önce oyununuzu açın, sunucuya girin. Sahne hazır olduğunda protokolü devreye alın.
+3.  **Görüş Açısı:** Oyunun video ayarlarının **"OpenGL"** modunda olduğundan emin olun.
+
+> Unutmayın, bu bir takım oyunu. Protokol sizin takım arkadaşınızdır. Ona doğru şartları sağlarsanız, sizi asla yarı yolda bırakmaz.
+
+---
+
+### █ YASAL UYARI (OKUMANIZ ÖNERİLİR)
+Bu yazılım, dijital bir deneydir. Kullanımından doğacak her türlü yasaklanma (VAC Ban vb.) tamamen kullanıcının sorumluluğundadır. Biz size sadece kapıyı gösteririz, içeri girip girmemek size kalmış. Antivirüsünüz size ihanet edip programı silerse, ona bir süreliğine kimin patron olduğunu hatırlatın.
+
+**Protokol aktif. Şimdi kuralları yeniden yazın.**
+`
+  },{
     id: 'cs16-fps-booster-v1',
     name: 'CS 1.6 - FPS Booster & CFG Editor',
     game: 'Counter-Strike 1.6',

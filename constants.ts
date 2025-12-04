@@ -20,7 +20,7 @@ export const CHEATS_DATA: Hack[] = [
     ],
     image: '/images/cs16-kolye-protocol.png', // DİKKAT: Yeni ve havalı bir görsel ekle!
 
-    downloadLink: 'https://ay.live/Jfp', // Bu linki kendi indirme linkinle değiştirebilirsin
+    downloadLink: 'https://ay.live/FmN5', // Bu linki kendi indirme linkinle değiştirebilirsin
 
     longDescription: `
 # ▋ The Kolye Protocol :: Vaka No: 1.6 ▋
